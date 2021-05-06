@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>devCodeCamp &middot; Most Wanted</title>
+  </head>
+  <body>
+    <form id="nameForm">
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname" value="Joy"><br>
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname" value="Madden"><br><br>
+        <input type="button" onclick="searchByName()" value="Submit">
+    </form> 
+      <table style="border: 1px solid black;margin-left: auto;margin-right: auto;padding: auto;border-spacing: 20px;">
+          <thead>
+              <th id=most_wanted></th>
+          </thead>
+          <tbody id=mytable>
+            <tr><th>ID</th><th>First Name</th><th>Last Name</th><th>Gender</th>
+              <th>D.O.B.</th><th>Height</th><th>Weight</th><th>Eye Color</th>
+              <th>Occupation</th><th>Parents</th><th>Current Spouse</th></th>
+            <tr><td>272822514</td><td>Billy</td><td>Bob</td><td>Male</td>
+              <td>1/18/1949</td><td>71 in.</td><td>175 lbs.</td><td>Brown</td>
+              <td>Programmer</td><td>N/A</td><td>401222887</td></tr>
+            <tr><td>401222887</td><td>Uma</td><td>Bob</td><td>Female</td><td>4/1/1947</td>
+              <td>65 in.</td><td>162 lbs.</td><td>Brown</td><td>Assistant</td><td>N/A</td><td>272822514</td></tr>
+            <tr><td>409574486</td><td>Michael</td><td>Walkens</td><td>Male</td><td>5/9/1951</td>
+              <td>76 in.</td><td>250 lbs.</td><td>Brown</td><td>Landscaper</td><td>N/A</td><td>260451248</td></tr>
+          </tbody>
+      </table>
+    <script src="data.css"></script>
+    <script src="data.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
